@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/nimbusops1/encuestapp-k8s-infra.git
+    repoURL: https://github.com/Emi8977/encuestapp-k8s-ECMAScript6.git # repositorio polling
     targetRevision: main      #rama principal donde estan los archivos
     path: overlays/dev                  #es el directorio donde esta deployment.yaml en la carpeta k8s de github
   destination:
     server: https://kubernetes.default.svc
-    namespace: ambiente-dev-encuestapp #el nombre del namespace que va a crear dentro del cluster
+    namespace: ambiente-dev-encuestapp-mern-ECMAScript6 #el nombre del namespace que va a crear dentro del cluster
   syncPolicy:
     automated:
       prune: true
