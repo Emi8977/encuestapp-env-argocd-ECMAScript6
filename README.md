@@ -1,1 +1,2 @@
-# encuestapp-env-argocd-ECMAScript6
+# infra-gitops
+archivos de config
